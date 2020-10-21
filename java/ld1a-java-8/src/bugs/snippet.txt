@@ -1,0 +1,137 @@
+package Collections;
+import java.util.ArrayList;
+public class Online_store {
+    public static void main(String[] args) {
+        /*
+         * //Variable Declaration Scanner sc = new Scanner();
+         *
+         *
+         * System.out.println("Welcome to Gir Store");
+         * System.out.println("If you are a seller, Press 1");
+         * System.out.println("If you are a buyer, Press 2");
+         * System.out.println("Select your Options:"); int choice = sc.nextInt();
+         * System.out.println("Thank you for choosing option: " + choice +
+         * "\n Please Wait");
+         *
+         * if (choice == 1){
+         *
+         * }
+         *
+         * else if (choice == 2){
+         *
+         * }
+         *
+         * else{ System.out.println("Please choose the given option."); }
+         */
+        // ArrayList
+        ArrayList booksArrayList = new ArrayList();
+        ArrayList groceryArrayList = new ArrayList();
+        // Books
+        Book.Fiction The_5am_Club = new Book.Fiction();
+        Book Think_Rich_Grow_Rich = new Book();
+        Book Rich_Dad_Poor_Dad = new Book();
+        // Grocery
+        Grocery.Non_Dairy Rice = new Grocery.Non_Dairy();
+        Grocery Green_Peas = new Grocery();
+        Grocery Daal = new Grocery();
+        // Addign Objects to the ArrayList
+        booksArrayList.add(The_5am_Club);
+        booksArrayList.add(Think_Rich_Grow_Rich);
+        booksArrayList.add(Rich_Dad_Poor_Dad);
+        groceryArrayList.add(Rice);
+        groceryArrayList.add(Green_Peas);
+        groceryArrayList.add(Daal);
+        // Printing ArrayList
+        System.out.println("\n\n\n\n" + booksArrayList.toString() + "\n");
+        System.out.println(groceryArrayList.toString() + "\n");
+        // The_5am_Club
+        The_5am_Club.product_name = "The 5AM Club";
+        The_5am_Club.product_desciption = "Best book ever etc etc etc";
+        The_5am_Club.product_price = (float) 250.00;
+        The_5am_Club.Author_name = "Robin Sharma";
+        The_5am_Club.Release_date = "4 Dec 2018";
+        The_5am_Club.displayin();
+        // Rice
+        Rice.product_name = "Rice";
+        Rice.product_desciption = "To eat";
+        Rice.Expiry_date = "Older the rice better the benefits";
+        Rice.Manufactured_date = "XX-MM-YYYY";
+        Rice.Manufacturing_Company = "India Gate";
+        Rice.product_price = (float) 50.00;
+        Rice.displayin();
+    }
+}
+// Classes of Products and Category.
+// Sub Category are implemented as Sub-Classes under Catagories class
+// Class 1
+class Product {
+    public String product_name;
+    public String Category = "General";
+    public String product_desciption;
+    public float product_price;
+}
+// Class 2 extends Class 1
+class Book extends Product {
+    public String Category = "Books";
+    public String Sub_Category = "General";
+    public String Author_name;
+    public String Release_date;
+    public void displayout() {
+        System.out.println("\nBook name: " + product_name);
+        System.out.println("Category: " + Category);
+        System.out.println("Description: " + product_desciption);
+        System.out.println("Author: " + Author_name);
+        System.out.println("Release_date: " + Release_date);
+        System.out.println("Price: " + product_price + "\n");
+    }
+    // Static Sub-class 1 extends Class 2
+    static class Fiction extends Book {
+        public String Sub_Category = "Fictions";Category="Books1234";
+        public void displayin() {
+            super.displayout();
+            System.out.println("Sub Category: " + Sub_Category);
+            System.out.println("Category: " + Category);
+        }
+    }
+    // Static Sub-class 2 extends Class 2
+    static class Non_Fiction extends Book {
+        public String Sub_Category = "Non Fiction";
+        public void displayin() {
+            super.displayout();
+            System.out.println("Sub Category: " + Sub_Category);
+        }
+    }
+}
+// Class 3 Extends Class 1
+class Grocery extends Product {
+    public String Category = "Grocery";
+    public String Manufacturing_Company;
+    public String Manufactured_date;
+    public String Expiry_date;
+    public void displayout() {
+        System.out.println("\nProduct name: " + product_name);
+        System.out.println("Category: " + Category);
+        System.out.println("Description: " + product_desciption);
+        System.out.println("Manufacturing_Company: " + Manufacturing_Company);
+        System.out.println("Manufactured_date: " + Manufactured_date);
+        System.out.println("Explairy Date: " + Expiry_date);
+        System.out.println("Price: " + product_price + " per KG\n");
+    }
+    // Static Sub-class 1 extends Class 3
+    static class Dairy extends Grocery {
+        public String Sub_Category = "Dairy";
+        public void displayin() {
+            super.displayout();
+            System.out.println("Sub Category: " + Sub_Category);
+        }
+    }
+    // Static Sub-class 2 extends Class 3
+    static class Non_Dairy extends Grocery {
+        public String Sub_Category = "Non Dairy";
+        public void displayin() {
+            super.displayout();
+            System.out.println("Sub Category: " + Sub_Category);
+        }
+    }
+}
+// Filer Classes (Custom Lambda Expression)
