@@ -4,12 +4,12 @@ import java.io.FileFilter;
 //Use case : Display all the .java files inside a folder
 //1. using java 7 syntax
 //2. using java 8 sytnax (Lambda Expressions)
+
 public class FileFilterLambda {
 	public static void main(String[] args) {
 		//lambdaExpression();
 		lambdaExpression1();
 	}
-
 
 	private static void theJava7Way() {
 		// Refer an existing directory

@@ -213,6 +213,12 @@ FROM person p
 GROUP BY p.person_first_name
 HAVING FirstNameCount > 1;
 
+SELECT 
+COUNT(p.person_first_name) as FirstNameCount,
+p.person_first_name
+FROM person p
+HAVING FirstNameCount > 1;
+
 
 SELECT 
 COUNT(p.person_first_name) as FirstNameCount,
