@@ -1,4 +1,4 @@
-package com.ecz;
+package com.ecommerce;
 
 import java.util.List;
 import java.util.Map;
@@ -29,7 +29,7 @@ public class App {
             // Display the products by iterating the list
             for (Map<String, Object> productMap : productsListOfMaps) {
                 System.out.printf("%d ", productMap.get("PRODUCT_ID"));
-                System.out.printf("%s", productMap.get("PRODUCT_NAME"));
+                System.out.printf("%s ", productMap.get("PRODUCT_NAME"));
                 System.out.println(productMap.get("PRICE"));
             }
         } finally {
