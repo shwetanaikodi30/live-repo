@@ -21,7 +21,6 @@ public class App {
         } catch (Exception e) {
             System.out.println("Error Connecting to Database!" + e);
         }
-
     }
 }
 class Employee {
@@ -49,9 +48,7 @@ class Employee {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-
 }
-
 // Configure the query and get the employee list
 interface EmployeeDAO {
     @SqlQuery("SELECT * FROM EMPLOYEE")

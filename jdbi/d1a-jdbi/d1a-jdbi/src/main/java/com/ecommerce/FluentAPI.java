@@ -7,8 +7,12 @@ import org.skife.jdbi.v2.DBI;
 import org.skife.jdbi.v2.Handle;
 import org.skife.jdbi.v2.Query;
 
-public class App {
+public class FluentAPI {
     public static void main(String[] args) {
+        fluentAPI();
+    }
+
+    private static void fluentAPI() {
         // JDBI Fluent API
         // This represents a connection to the database system. It usually is a wrapper
         // around a JDBC Connection object.
