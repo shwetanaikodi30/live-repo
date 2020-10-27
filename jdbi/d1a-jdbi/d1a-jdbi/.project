@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>ld2a-business-component</name>
+	<name>d1a-jdbi</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1603718323113</id>
+			<id>1603771744981</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
