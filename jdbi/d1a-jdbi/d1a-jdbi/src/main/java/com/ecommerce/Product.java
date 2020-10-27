@@ -39,7 +39,7 @@ class Product {
 
    @Override
    public String toString() {
-      return "Product [price=" + price + ", productId=" + productId + ", productName=" + productName + "]";
+      return "\n Product [price=" + price + ", productId=" + productId + ", productName=" + productName + "]";
    }
 }
 
