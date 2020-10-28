@@ -9,8 +9,8 @@ public class App {
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            DBI dbi = new DBI("jdbc:mysql://localhost:3306/MLPXX?allowPublicKeyRetrieval=true&useSSL=false", "MLPXX",
-                    "MLPXX");
+            // DBI dbi = new DBI("jdbc:mysql://localhost:3306/MLPXX?allowPublicKeyRetrieval=true&useSSL=false", "MLPXX",
+            //         "MLPXX");
             List<Employee> employeeList = dbi.onDemand(EmployeeDAO.class).list();
             // Employee List converted into an Array
             Employee[] employees = employeeList.toArray(new Employee[employeeList.size()]);
