@@ -8,7 +8,7 @@ public interface ActorDAO {
    List<Actor> listActors();
    Actor findActor(@Bind("empID") int actorID);
    Actor findActorByName(@Bind("firstName") String firstName);
-   int insertActor(@Bind("actorID") int actorID); //ADD ALL THE OTHER FIELDS
-   int updateActor(); //ADD THE NECESSARY FIELDS
-   int deleteActor(); //ADD THE NECESSARY FIELDS
+   int insertActor(@Bind("actorID") int actorID); //ADD ALL THE OTHER PARAMS
+   int updateActor(); //ADD THE NECESSARY PARAMS
+   int deleteActor(); //ADD THE NECESSARY PARAMS
 }
