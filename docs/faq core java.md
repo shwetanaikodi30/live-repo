@@ -1,0 +1,7 @@
+- POJO?
+  - POJO stands for Plain Old Java Object.
+  - POJOs are used for increasing the readability and re-usability of a program. 
+  - A POJO should not:
+      - Extend prespecified classes, Ex: public class GFG extends javax.servlet.http.HttpServlet { … } is not a POJO class.
+      - Implement prespecified interfaces, Ex: public class Bar implements javax.ejb.EntityBean { … } is not a POJO class.
+      - Contain prespecified annotations, Ex: @javax.persistence.Entity public class Baz { … } is not a POJO class
