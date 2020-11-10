@@ -1,0 +1,1 @@
+https://javaconceptoftheday.com/class-variables-and-instance-variables-in-java/
