@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1d-currency-exchange-service/pom.xml" />
+        <option value="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1f-currency-conversion-service-ribbon/pom.xml" />
+        <option value="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1g-currency-conversion-service-ribbon/pom.xml" />
+        <option value="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/netflix-eureka-naming-server/pom.xml" />
+        <option value="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1h-netflix-eureka-naming-server/pom.xml" />
+        <option value="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1i-netflix-zuul-api-gateway-server/pom.xml" />
+        <option value="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1b-spring-cloud-config-server/pom.xml" />
+        <option value="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1a-limits-service-1/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

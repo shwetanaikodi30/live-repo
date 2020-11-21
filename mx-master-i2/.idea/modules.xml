@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1a-limits-service/ed1a-limits-service.iml" filepath="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1a-limits-service/ed1a-limits-service.iml" />
+      <module fileurl="file://Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1a-limits-service-1/ed1a-limits-service-1.iml" filepath="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1a-limits-service-1/ed1a-limits-service-1.iml" />
+      <module fileurl="file://Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1b-spring-cloud-config-server/ed1b-spring-cloud-config-server.iml" filepath="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1b-spring-cloud-config-server/ed1b-spring-cloud-config-server.iml" />
+      <module fileurl="file://Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1d-currency-exchange-service/ed1d-currency-exchange-service.iml" filepath="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1d-currency-exchange-service/ed1d-currency-exchange-service.iml" />
+      <module fileurl="file://Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1e-currency-conversion-service/ed1e-currency-conversion-service.iml" filepath="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1e-currency-conversion-service/ed1e-currency-conversion-service.iml" />
+      <module fileurl="file://Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1f-currency-conversion-service-feign/ed1f-currency-conversion-service-feign.iml" filepath="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1f-currency-conversion-service-feign/ed1f-currency-conversion-service-feign.iml" />
+      <module fileurl="file://Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1g-currency-conversion-service-ribbon/ed1g-currency-conversion-service-ribbon.iml" filepath="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1g-currency-conversion-service-ribbon/ed1g-currency-conversion-service-ribbon.iml" />
+      <module fileurl="file://Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1h-netflix-eureka-naming-server/ed1h-netflix-eureka-naming-server.iml" filepath="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1h-netflix-eureka-naming-server/ed1h-netflix-eureka-naming-server.iml" />
+      <module fileurl="file://Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1i-netflix-zuul-api-gateway-server/ed1i-netflix-zuul-api-gateway-server.iml" filepath="Z:/explorE/eCourse/mas-ms-sp-sc/mx-master-i2/ed1i-netflix-zuul-api-gateway-server/ed1i-netflix-zuul-api-gateway-server.iml" />
+    </modules>
+  </component>
+</project>
